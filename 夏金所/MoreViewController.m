@@ -57,6 +57,7 @@
         [self.view addSubview:statusBarView];
     }
     
+    
     [self.navigationController setNavigationBarHidden:YES];
    [_table setScrollEnabled:NO];
     
@@ -223,10 +224,11 @@
         alert.tag = 10001;
         [alert show];
         }
-     } else {
-     
-         [self.view makeToast:@"还没上架，请延后" duration:2 position:@"center"];
      }
+//     else {
+//     
+//         [self.view makeToast:@"还没上架，请延后" duration:2 position:@"center"];
+//     }
 }
 
 

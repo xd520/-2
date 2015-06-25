@@ -18,4 +18,5 @@
 #define ScreenHeight [[UIScreen mainScreen] bounds].size.height
 #define ScreenWidth  [[UIScreen mainScreen] bounds].size.width
 
-
+//#define ScreenHeight self.view.bounds.size.height
+//#define ScreenWidth self.view.bounds.size.width

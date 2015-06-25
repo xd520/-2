@@ -60,7 +60,7 @@
     
     
     //厦金所
-    [ShareSDK registerApp:@"81082a335efc"];     //参数为ShareSDK官网中添加应用后得到的AppKey
+    [ShareSDK registerApp:@"8107d4141a1c"];     //参数为ShareSDK官网中添加应用后得到的AppKey
     //夏金所  appkey:81082a335efc
      //厦金所  appkey:8107d4141a1c
     
@@ -74,7 +74,7 @@
 
 - (void)initializePlat{
     
-    [ShareSDK registerApp:@"31a728a463ee"];     //参数为ShareSDK官网中添加应用后得到的AppKey
+   // [ShareSDK registerApp:@"31a728a463ee"];     //参数为ShareSDK官网中添加应用后得到的AppKey
     
     //添加新浪微博应用 注册网址 http://open.weibo.com
     [ShareSDK connectSinaWeiboWithAppKey:@"2211740027"

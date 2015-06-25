@@ -77,14 +77,20 @@
 //    
 //    baseView.layer.cornerRadius = 4;
     
-    
-    UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(10, 50, ScreenWidth - 30, 1)];
+    UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(10, 50, ScreenWidth - 10, 1)];
     lineView.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
     [baseView addSubview:lineView];
     
-    lineView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, ScreenWidth - 30, 1)];
+    lineView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, ScreenWidth - 10, 1)];
     lineView.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
     [baseView addSubview:lineView];
+   
+    
+    lineView = [[UIView alloc] initWithFrame:CGRectMake(0, 149, ScreenWidth, 1)];
+    lineView.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+    [baseView addSubview:lineView];
+    
+    
     
     NSArray *titleArr = @[@"真实姓名",@"身份证号",@"手机号码"];
     NSRange range,range1;
@@ -181,9 +187,22 @@
 //    base.layer.cornerRadius = 4;
     
     
-    UIView *lineV = [[UIView alloc] initWithFrame:CGRectMake(10, 50, ScreenWidth - 30, 1)];
+   UIView *lineVFist = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 1)];
+    lineVFist.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+    [base addSubview:lineVFist];
+    
+    
+    
+    UIView *lineV = [[UIView alloc] initWithFrame:CGRectMake(10, 50, ScreenWidth - 10, 1)];
     lineV.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
     [base addSubview:lineV];
+    
+    
+    UIView *lineV1 = [[UIView alloc] initWithFrame:CGRectMake(0, 99, ScreenWidth, 1)];
+    lineV1.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+    [base addSubview:lineV1];
+    
+    
     
     NSArray *arr = @[@"客户号",@"交易资金帐号"];
     NSString *khhStr,*zjzhStr;
@@ -259,6 +278,17 @@
 //    
 //    lastView.layer.cornerRadius = 4;
 
+        UIView *lineV1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 1)];
+        lineV1.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+        [lastView addSubview:lineV1];
+        
+      
+        UIView *lineV = [[UIView alloc] initWithFrame:CGRectMake(0, 49, ScreenWidth, 1)];
+        lineV.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+        [lastView addSubview:lineV];
+        
+        
+        
     
     UIImageView *tipImg = [[UIImageView alloc] initWithFrame:CGRectMake(10, 15, 20, 20)];
     tipImg.image = [UIImage imageNamed:@"icon_nof2"];
@@ -302,6 +332,12 @@
 //        
 //        nameView.layer.cornerRadius = 4;
         
+        UIView *lineV = [[UIView alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 1)];
+        lineV.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+        [nameView addSubview:lineV];
+        
+        
+        
         UILabel *nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(10 ,17.5, 100, 15)];
         nameLabel.text = @"开户银行";
         nameLabel.font = [UIFont systemFontOfSize:15];
@@ -330,7 +366,7 @@
         
         
     
-        UIView *lastView = [[UIView alloc] initWithFrame:CGRectMake(0, 405, ScreenWidth, 50)];
+        UIView *lastView = [[UIView alloc] initWithFrame:CGRectMake(0, 404, ScreenWidth, 50)];
         lastView.backgroundColor = [UIColor whiteColor];
 //        lastView.layer.borderColor = [UIColor lightGrayColor].CGColor;
 //        
@@ -339,6 +375,11 @@
 //        lastView.layer.masksToBounds = YES;
 //        
 //        lastView.layer.cornerRadius = 4;
+        
+        UIView *line = [[UIView alloc] initWithFrame:CGRectMake(10, 49, ScreenWidth - 10, 1)];
+        line.backgroundColor = [ColorUtil colorWithHexString:@"eeeeee"];
+        [nameView addSubview:line];
+        
         
         
         UILabel *accountLabel = [[UILabel alloc] initWithFrame:CGRectMake(10 ,17.5, 110, 15)];
