@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "tabbar4-1.png"
+      "filename" : "tabbar4@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "tabbar4-2.png"
+      "filename" : "tabbar4@3x.png"
     }
   ],
   "info" : {

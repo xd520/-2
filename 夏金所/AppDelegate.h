@@ -26,7 +26,7 @@
 #import <TencentOpenAPI/TencentOAuth.h>
 
 #define NUMBERS @"0123456789\n"
-//#define SERVERURL @"http://192.168.1.110:8803"
+#define SERVERURL @"http://192.168.1.110:8803"
 //#define SERVERURL @"http://192.168.2.11:8080/account"
 //#define SERVERURL  @"http://192.168.8.156:8088/account"
 
@@ -38,7 +38,7 @@
 //#define SERVERURL @"http://xiajinsuo.com"
 //192.168.2.111:8080/account
 //#define SERVERURL @"http://10.10.10.2:8080"
-#define SERVERURL @"https://www.fyfae.com"
+//#define SERVERURL @"https://www.fyfae.com"
 
 //天津投
 //#define SERVERURL @"http://192.168.1.110:8805"

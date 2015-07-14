@@ -3,17 +3,17 @@
     {
       "idiom" : "universal",
       "scale" : "1x",
-      "filename" : "登录_03.png"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "2x",
       "filename" : "登录_03-1.png"
     },
     {
       "idiom" : "universal",
+      "scale" : "2x",
+      "filename" : "登录_03-1@2x.png"
+    },
+    {
+      "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "登录_03-2.png"
+      "filename" : "登录_03-1@3x.png"
     }
   ],
   "info" : {

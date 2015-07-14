@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "swish-1.png"
+      "filename" : "swish@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "swish-2.png"
+      "filename" : "swish@3x.png"
     }
   ],
   "info" : {

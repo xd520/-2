@@ -5,7 +5,7 @@
       "idiom" : "iphone",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "launchImager.png",
+      "filename" : "launchImager-4.png",
       "scale" : "2x"
     },
     {
@@ -29,7 +29,6 @@
       "idiom" : "ipad",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "filename" : "launchImager-4.png",
       "scale" : "1x"
     },
     {

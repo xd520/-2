@@ -62,7 +62,9 @@
    [_table setScrollEnabled:NO];
     
     
-    array = @[@"信息公告",@"检查更新",@"关于我们"];
+   // array = @[@"信息公告",@"检查更新",@"关于我们"];
+    array = @[@"信息公告",@"关于我们"];
+    
     arrImage = @[[UIImage imageNamed:@"icon_pwd"],[UIImage imageNamed:@"icon_update"],[UIImage imageNamed:@"我的客户经理"]];
     
     
@@ -158,14 +160,14 @@
         PublicViewController *cv = [[PublicViewController alloc] init];
         cv.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:cv animated:YES];
-    }else if (indexPath.row == 1) {
+    }else if (indexPath.row == 2) {
         
         [self onCheckVersion];
         
 //        CheckVersonViewController *cv = [[CheckVersonViewController alloc] init];
 //        cv.hidesBottomBarWhenPushed = YES;
 //        [self.navigationController pushViewController:cv animated:YES];
-    }else if (indexPath.row == 2) {
+    }else if (indexPath.row == 1) {
         AboutViewController *cv = [[AboutViewController alloc] init];
         cv.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:cv animated:YES];
@@ -225,10 +227,10 @@
         [alert show];
         }
      }
-//     else {
-//     
-//         [self.view makeToast:@"还没上架，请延后" duration:2 position:@"center"];
-//     }
+     else {
+     
+         [self.view makeToast:@"还没上架或还是首次上架，该功能延后" duration:2 position:@"center"];
+     }
 }
 
 

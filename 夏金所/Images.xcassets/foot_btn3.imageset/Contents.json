@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "foot_btn3-1.png"
+      "filename" : "foot_btn3@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "foot_btn3-2.png"
+      "filename" : "foot_btn3@3x.png"
     }
   ],
   "info" : {

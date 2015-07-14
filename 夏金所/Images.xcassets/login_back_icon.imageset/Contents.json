@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "login_back_icon-1.png"
+      "filename" : "login_back_icon@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "login_back_icon-2.png"
+      "filename" : "login_back_icon@3x.png"
     }
   ],
   "info" : {

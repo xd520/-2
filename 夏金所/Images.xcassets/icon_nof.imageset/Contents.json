@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "icon_nof-1.png"
+      "filename" : "icon_nof@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "icon_nof-2.png"
+      "filename" : "icon_nof@3x.png"
     }
   ],
   "info" : {

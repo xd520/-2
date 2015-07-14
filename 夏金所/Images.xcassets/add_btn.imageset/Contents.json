@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "add_btn-1.png"
+      "filename" : "add_btn@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "add_btn-2.png"
+      "filename" : "add_btn@3x.png"
     }
   ],
   "info" : {

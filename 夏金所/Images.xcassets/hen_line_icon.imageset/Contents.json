@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "hen_line_icon-1.png"
+      "filename" : "hen_line_icon@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "hen_line_icon-2.png"
+      "filename" : "hen_line_icon@3x.png"
     }
   ],
   "info" : {

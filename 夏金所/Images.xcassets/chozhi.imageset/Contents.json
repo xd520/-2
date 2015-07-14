@@ -8,12 +8,12 @@
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "chozhi-1.png"
+      "filename" : "chozhi@2x.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "chozhi-2.png"
+      "filename" : "chozhi@3x.png"
     }
   ],
   "info" : {
